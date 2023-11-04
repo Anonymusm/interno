@@ -3,3 +3,7 @@
     --text-color: #4D5053;
     --accent-color: #CDA274;
 }
+
+a {
+    text-decoration: none;
+}
