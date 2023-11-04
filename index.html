@@ -14,7 +14,7 @@
   </head>
   <body>
     <header class="header">
-      <p class="logo">Interno</p>
+     <img src="./images/logo.png" alt="Interno" class="logo">
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -52,7 +52,7 @@
               Enhancing the interior to achieve a healthier environment for the
               people using right space.
             </p>
-            <button type="button" class="advantage-item-btn">View More</button>
+            <a href="#" class="advantage-item-link">View More</a>
           </li>
           <li class="advantage-item">
             <h3 class="advantage-item-title">Furniture</h3>
@@ -60,7 +60,7 @@
               Movable articles that are used to make a room or building suitable
               for living or working.
             </p>
-            <button type="button" class="advantage-item-btn">View More</button>
+            <a href="#" class="advantage-item-link">View More</a>
           </li>
           <li class="advantage-item">
             <h3 class="advantage-item-title">Flooring</h3>
@@ -68,7 +68,7 @@
               Thin object any finished material applied over a floor structure
               to provide a walking surface.
             </p>
-            <button type="button" class="advantage-item-btn">View More</button>
+            <a href="#" class="advantage-item-link">View More</a>
           </li>
         </ul>
       </section>
@@ -87,28 +87,34 @@
         <h2 class="reviews-title">What the People Thinks About Interno</h2>
         <ul class="reviews-list">
           <li class="reviews-item">
-            <h3 class="reviews-item-title">Lisa Clairton</h3>
-            <p class="reviews-item-info">New York, USA</p>
-            <p class="reviews-item-text">
-              We selected Interno interior because of rigorous design background
-              & education.
-            </p>
+            <article class="reviews-item-box">
+              <h3 class="reviews-item-title">Lisa Clairton</h3>
+              <p class="reviews-item-info">New York, USA</p>
+              <p class="reviews-item-text">
+                We selected Interno interior because of rigorous design
+                background & education.
+              </p>
+            </article>
           </li>
           <li class="reviews-item">
-            <h3 class="reviews-item-title">David Knight</h3>
-            <p class="reviews-item-info">Sydney, Australia</p>
-            <p class="reviews-item-text">
-              The team exceeded our expectations and emerged as leaders of our
-              project’s.
-            </p>
+            <article class="reviews-item-box">
+              <h3 class="reviews-item-title">David Knight</h3>
+              <p class="reviews-item-info">Sydney, Australia</p>
+              <p class="reviews-item-text">
+                The team exceeded our expectations and emerged as leaders of our
+                project’s.
+              </p>
+            </article>
           </li>
           <li class="reviews-item">
-            <h3 class="reviews-item-title">Lisa Clairton</h3>
-            <p class="reviews-item-info">Paris, France</p>
-            <p class="reviews-item-text">
-              They balanced the architectural vision and the project realities
-              beautifully.
-            </p>
+            <article class="reviews-item-box">
+              <h3 class="reviews-item-title">Lisa Clairton</h3>
+              <p class="reviews-item-info">Paris, France</p>
+              <p class="reviews-item-text">
+                They balanced the architectural vision and the project realities
+                beautifully.
+              </p>
+            </article>
           </li>
         </ul>
       </section>
@@ -152,16 +158,15 @@
       <section class="blogs">
         <h2 class="blogs-title">Recent Blogs</h2>
         <p class="blogs-text">
-          Get updates about our latest trends and techniques used in <br />
-          interior design project works.
+          Get updates about our latest trends and techniques used in interior
+          design project works.
         </p>
         <ul class="blogs-list">
           <li class="blogs-item">
             <article class="blogs-item-box">
               <p class="blogs-item-place">Kitchen Design</p>
               <h3 class="blogs-item-title">
-                Residential Interior Designer <br />
-                In New York, USA
+                Residential Interior Designer In New York, USA
               </h3>
               <p class="blogs-item-date">November 23, 2021</p>
               <button type="button" class="blogs-item-btn">></button>
@@ -222,45 +227,73 @@
       <section class="contact">
         <h2 class="contact-title">Wanna join the interno?</h2>
         <p class="contact-info">Contact Us & Get a Free Consultation</p>
-        <button type="button" class="contact-btn">Connect With us</button>
+        <div class="contact-wrapper">
+          <button type="button" class="contact-btn">Connect With us</button>
+        </div>
       </section>
     </main>
     <footer>
-      <p class="logo">Interno</p>
-      <p>We are the leading architect and interior design firm in the world.</p>
-      <h4>Pages</h4>
+      <img src="./images/logo.png" alt="Interno" class="logo">
+      <p class="footer-text">We are the leading architect and interior design firm in the world.</p>
+      <h3 class="footer-title">Pages</h3>
 
-      <nav>
-        <ul>
-          <li><a href="#">Style Guide</a></li>
-          <li><a href="#">Protected</a></li>
-          <li><a href="#">Licenses</a></li>
-          <li><a href="#">Changelog</a></li>
-          <li><a href="#">404</a></li>
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a href="#" class="footer-link">Style Guide</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="footer-link">Protected</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="footer-link">Licenses</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="footer-link">Changelog</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="footer-link">404</a>
+          </li>
         </ul>
       </nav>
 
-      <h4>Explore</h4>
+      <h3 class="footer-title">Explore</h3>
 
-      <nav>
-        <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Recent Blog</a></li>
-          <li><a href="#">Pricing Plan</a></li>
-          <li><a href="#">Our Projects</a></li>
-          <li><a href="#">Contact Us</a></li>
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="footer-link">Recent Blog</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="footer-link">Pricing Plan</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="footer-link">Our Projects</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
         </ul>
       </nav>
 
-      <h4>Contact</h4>
-      <address>
-        <a href="https://maps.app.goo.gl/jwPYAChXDS552KNn9" target="_blank"
+      <h3 class="footer-title">Contact</h3>
+      <address class="address">
+        <a
+          href="https://maps.app.goo.gl/jwPYAChXDS552KNn9"
+          target="_blank"
+          class="footer-link"
           >53, East Birchwood Ave. Brooklyn, New York 11201, USA</a
         >
-
-        <a href="mailto:contact@interno.com">contact@interno.com</a>
-        <a href="tel:+1234567890">+(123) 456 - 7890</a>
+<br>
+        <a href="mailto:contact@interno.com" class="footer-link"
+          >contact@interno.com</a
+        > <br>
+        <a href="tel:+1234567890" class="footer-link">+(123) 456 - 7890</a>
       </address>
+      <p class="copy">Copyright © Interno | Designed by <span class="footer-amount">Victorflow</span> Templates - Powered by <span class="footer-amount">Webflow</span></p>
     </footer>
   </body>
 </html>
