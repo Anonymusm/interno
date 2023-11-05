@@ -186,6 +186,21 @@ address {
   letter-spacing: 0.22px;
 }
 
+.statistics-item-text {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+
+.statistics-item-amount {
+  color: var(--accent-color);
+  font-family: "DM Serif Display", serif;
+  font-size: 85px;
+  letter-spacing: 1.7px;
+}
+
 .blogs-title {
   color: var(--main-color);
   text-align: center;
