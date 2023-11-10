@@ -8,6 +8,12 @@ body {
   font-family: "Jost", sans-serif;
 }
 
+.container {
+  width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 h1,
 h2,
 h3,
@@ -64,11 +70,21 @@ address {
   font-style: normal;
 }
 
+header {
+  padding-bottom: 18px;
+  padding-top: 26px;
+}
+
 .navigation-link {
   color: var(--main-color);
   font-size: 19px;
   line-height: 1.57895;
   letter-spacing: 0.4px;
+}
+
+.hero {
+  padding-bottom: 260px;
+  padding-top: 188px;
 }
 
 .hero-title {
@@ -94,6 +110,11 @@ address {
   background-color: var(--main-color);
 }
 
+.advantage {
+  padding-bottom: 170px;
+  padding-top: 175px;
+}
+
 .advantage-item-title {
   color: var(--main-color);
   font-family: "DM Serif Display", serif;
@@ -116,6 +137,10 @@ address {
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.36px;
+}
+
+.design {
+  padding-bottom: 140.39px;
 }
 
 .design-img {
@@ -154,6 +179,12 @@ address {
   background-color: var(--main-color);
 }
 
+.reviews {
+  padding-top: 103px;
+  padding-bottom: 120.39px;
+  background-color: #f4f0ec;
+}
+
 .reviews-title {
   color: var(--main-color);
   text-align: center;
@@ -189,6 +220,11 @@ address {
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: 0.22px;
+}
+
+.project {
+  padding-top: 342.61px;
+  padding-bottom: 140px;
 }
 
 .project-title {
@@ -229,6 +265,12 @@ address {
   letter-spacing: 0.22px;
 }
 
+.statistics {
+  padding-bottom: 140.02px;
+  padding-top: 139.98px;
+  background-color: #f4f0ec;
+}
+
 .statistics-item-text {
   color: var(--text-color);
   text-align: center;
@@ -242,6 +284,11 @@ address {
   font-family: "DM Serif Display", serif;
   font-size: 85px;
   letter-spacing: 1.7px;
+}
+
+.blogs {
+  padding-top: 12.98px;
+  padding-bottom: 181px;
 }
 
 .blogs-title {
@@ -290,7 +337,9 @@ address {
 
 .contact {
   border-radius: 70px;
-  background: var(--main-color);
+  background-color: var(--main-color);
+  padding-top: 100px;
+  padding-bottom: 95px;
 }
 
 .contact-title {
@@ -322,6 +371,11 @@ address {
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.22px;
+}
+
+.footer {
+  padding-top: 129.8px;
+  padding-bottom: 36px;
 }
 
 .footer-text {
