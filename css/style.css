@@ -75,6 +75,21 @@ header {
   padding-top: 26px;
 }
 
+.header-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  margin-left: 485px;
+}
+
+.navigation-item {
+  margin-left: 40px;
+}
+
 .navigation-link {
   color: var(--main-color);
   font-size: 19px;
@@ -85,6 +100,8 @@ header {
 .hero {
   padding-bottom: 260px;
   padding-top: 195px;
+  background-color: rgb(116, 134, 120);
+  border-bottom-left-radius: 290px;
 }
 
 .hero-title {
@@ -93,6 +110,7 @@ header {
   font-size: 80px;
   line-height: 1.2;
   letter-spacing: 0.22px;
+  margin-bottom: 19px;
 }
 
 .hero-text {
@@ -100,6 +118,7 @@ header {
   font-size: 22px;
   line-height: 1.5;
   letter-spacing: 0.22px;
+  margin-bottom: 35px;
 }
 
 .hero-btn {
@@ -108,11 +127,18 @@ header {
   line-height: 1.5;
   letter-spacing: 0.72px;
   background-color: var(--main-color);
+  padding: 22px 67px 22px 34px;
 }
 
 .advantage {
   padding-bottom: 170px;
   padding-top: 175px;
+}
+
+.advantage-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .advantage-item-title {
@@ -122,6 +148,7 @@ header {
   font-weight: 400;
   line-height: 1.56;
   letter-spacing: 0.22px;
+  margin-bottom: 17px;
 }
 
 .advantage-item-text {
@@ -130,6 +157,7 @@ header {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.36px;
+  margin-bottom: 35px;
 }
 
 .advantage-item-link {
@@ -143,8 +171,17 @@ header {
   padding-bottom: 140.39px;
 }
 
+.design-wrapper {
+  margin-right: 77px;
+}
+
 .design-img {
   border-radius: 0px 326px 0px 123px;
+}
+
+.design-position {
+  display: flex;
+  justify-content: space-between;
 }
 
 .design-title {
@@ -154,6 +191,7 @@ header {
   font-weight: 400;
   line-height: 1.3;
   letter-spacing: 0.22px;
+  margin-bottom: 42px;
 }
 
 .design-text {
@@ -161,6 +199,11 @@ header {
   font-size: 22px;
   line-height: 1.5;
   letter-spacing: 0.22px;
+  margin-bottom: 46px;
+}
+
+.design-link-item {
+  margin-bottom: 68px;
 }
 
 .design-link {
@@ -177,12 +220,14 @@ header {
   letter-spacing: 0.72px;
   border: 2px solid var(--main-color);
   background-color: var(--main-color);
+  padding: 22px 67px 22px 34px;
 }
 
-.reviews {
-  padding-top: 103px;
-  padding-bottom: 120.39px;
+.reviews .container {
   background-color: #f4f0ec;
+  padding-top: 103px;
+  border-radius: 70px;
+  padding-bottom: 120px;
 }
 
 .reviews-title {
@@ -193,11 +238,40 @@ header {
   font-weight: 400;
   line-height: 1.3;
   letter-spacing: 0.22px;
+  margin-bottom: 47px;
+}
+
+.reviews-list {
+  display: flex;
+  justify-content: center;
+}
+
+.reviews-item {
+  flex-basis: 355px;
+}
+
+.reviews-item + .reviews-item {
+  margin-left: 17px;
 }
 
 .reviews-item-box {
   border-radius: 30px;
   background-color: #fff;
+  padding-bottom: 45px;
+  padding-top: 55px;
+}
+
+.reviews-position {
+  display: flex;
+}
+
+.reviews-wrapper {
+  margin-left: 20px;
+}
+
+.reviews-img {
+  margin-left: 35px;
+  margin-bottom: 25px;
 }
 
 .reviews-item-title {
@@ -206,6 +280,7 @@ header {
   font-size: 24px;
   line-height: 1.5625;
   letter-spacing: 0.22px;
+  margin-right: 20px;
 }
 
 .reviews-item-info {
@@ -213,6 +288,7 @@ header {
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.22px;
+  margin-right: 20px;
 }
 
 .reviews-item-text {
@@ -220,10 +296,12 @@ header {
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: 0.22px;
+  margin-left: 35px;
 }
 
 .project {
   padding-bottom: 140px;
+  padding-top: 356px;
 }
 
 .project-title {
@@ -234,6 +312,7 @@ header {
   font-weight: 400;
   line-height: 1.32766;
   letter-spacing: 0.22px;
+  margin-bottom: 20px;
 }
 
 .project-text {
@@ -242,10 +321,29 @@ header {
   font-size: 22px;
   line-height: 1.5;
   letter-spacing: 0.22px;
+  margin-bottom: 70px;
+}
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 60px;
+}
+
+.project-item {
+  flex-basis: 590px;
 }
 
 .project-img {
   border-radius: 0px 80px 0px 0px;
+  margin-bottom: 24px;
+}
+
+.project-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 .project-item-title {
@@ -264,10 +362,32 @@ header {
   letter-spacing: 0.22px;
 }
 
+.project-item-btn {
+  padding: 27px 31px;
+  border-radius: 100px;
+  background-color: #f4f0ec;
+  border: none;
+  margin-left: auto;
+}
+
 .statistics {
   padding-bottom: 140.02px;
   padding-top: 139.98px;
   background-color: #f4f0ec;
+}
+
+.statistics-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 18px;
+}
+
+.statistics-item {
+  flex-basis: 288px;
+}
+
+.statistics-item:nth-child(-n + 3) {
+  border-right: 1px solid #cda274;
 }
 
 .statistics-item-text {
@@ -283,6 +403,7 @@ header {
   font-family: "DM Serif Display", serif;
   font-size: 85px;
   letter-spacing: 1.7px;
+  text-align: center;
 }
 
 .blogs {
@@ -298,6 +419,7 @@ header {
   font-weight: 400;
   line-height: 1.3;
   letter-spacing: 0.22px;
+  margin-bottom: 20px;
 }
 
 .blogs-text {
@@ -306,6 +428,21 @@ header {
   font-size: 22px;
   line-height: 1.5;
   letter-spacing: 0.22px;
+  margin-bottom: 70px;
+}
+
+.blogs-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 19px;
+  row-gap: 40px;
+}
+
+.blogs-item {
+  border: 1px solid #e7e7e7;
+  border-radius: 62px;
+  flex-basis: 387px;
 }
 
 .blogs-item-place {
@@ -313,10 +450,14 @@ header {
   font-size: 15px;
   line-height: 1.6;
   letter-spacing: 0.22px;
+  padding-top: 20px;
+  margin-left: 20px;
 }
 
 .blogs-img {
   border-radius: 45px 45px 0px 0px;
+  margin-bottom: 15px;
+  margin-left: 20px;
 }
 
 .blogs-item-title {
@@ -326,12 +467,30 @@ header {
   font-weight: 400;
   line-height: 1.4;
   letter-spacing: 0.5px;
+  width: 337px;
+  margin-left: 20px;
+}
+
+.blogs-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .blogs-item-date {
   color: var(--text-color);
   line-height: 1.5;
   letter-spacing: 0.22px;
+  margin-top: 35px;
+  margin-left: 20px;
+  padding-bottom: 40px;
+}
+
+.blogs-item-btn {
+  padding: 18px 22px;
+  border-radius: 50%;
+  background-color: #f4f0ec;
+  border: none;
+  margin-left: 150px;
 }
 
 .contact {

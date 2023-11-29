@@ -19,9 +19,10 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-position">
         <img src="./images/logo.png" alt="Interno" class="logo" />
         <nav class="navigation">
           <ul class="navigation-list list">
@@ -52,7 +53,7 @@
             The world needs innovators and problem solvers who turn challenges
             into graeter oportunities
           </p>
-          <button type="button" class="hero-btn">Get started</button>
+          <button type="button" class="hero-btn">Get started➡️</button>
         </div>
       </section>
       <section class="advantage">
@@ -64,7 +65,7 @@
                 Enhancing the interior to achieve a healthier environment for
                 the people using right space.
               </p>
-              <a href="#" class="advantage-item-link">View More</a>
+              <a href="#" class="advantage-item-link">View More ➡️</a>
             </li>
             <li class="advantage-item">
               <h3 class="advantage-item-title">Furniture</h3>
@@ -72,7 +73,7 @@
                 Movable articles that are used to make a room or building
                 suitable for living or working.
               </p>
-              <a href="#" class="advantage-item-link">View More</a>
+              <a href="#" class="advantage-item-link">View More ➡️</a>
             </li>
             <li class="advantage-item">
               <h3 class="advantage-item-title">Flooring</h3>
@@ -80,22 +81,32 @@
                 Thin object any finished material applied over a floor structure
                 to provide a walking surface.
               </p>
-              <a href="#" class="advantage-item-link">View More</a>
+              <a href="#" class="advantage-item-link">View More ➡️</a>
             </li>
           </ul>
         </div>
       </section>
       <section class="design">
-        <div class="container">
+        <div class="container design-position">
+          <div class="design-wrapper">
+            <h2 class="design-title">We Tackle The Most Challenging Designs</h2>
+            <p class="design-text">
+              The world needs innovators and problem solvers who turn challenges
+              into greater opportunities. We have an insatiable curiosity about
+              transformative trends challenging the status.
+            </p>
+            <ul class="design-list list">
+              <li class="design-link-item">
+                <a href="tel:+012345678" class="design-link">012345678</a>
+              </li>
+              <li class="design-btn-item">
+                <button type="button" class="design-btn">
+                  Get Free Estimate➡️
+                </button>
+              </li>
+            </ul>
+          </div>
           <img src="./images/room.jpg" alt="Room" class="design-img" />
-          <h2 class="design-title">We Tackle The Most Challenging Designs</h2>
-          <p class="design-text">
-            The world needs innovators and problem solvers who turn challenges
-            into greater opportunities. We have an insatiable curiosity about
-            transformative trends challenging the status.
-          </p>
-          <a href="tel:+012345678" class="design-link">012345678</a>
-          <button type="button" class="design-btn">Get Free Estimate➡️</button>
         </div>
       </section>
       <section class="reviews">
@@ -104,13 +115,17 @@
           <ul class="reviews-list list">
             <li class="reviews-item">
               <article class="reviews-item-box">
-                <img
-                  src="./images/girl.jpg"
-                  alt="Lisa Clairton"
-                  class="reviews-img"
-                />
-                <h3 class="reviews-item-title">Lisa Clairton</h3>
-                <p class="reviews-item-info">New York, USA</p>
+                <div class="reviews-position">
+                  <img
+                    src="./images/girl.jpg"
+                    alt="Lisa Clairton"
+                    class="reviews-img"
+                  />
+                  <div class="reviews-wrapper">
+                    <h3 class="reviews-item-title">Lisa Clairton</h3>
+                    <p class="reviews-item-info">New York, USA</p>
+                  </div>
+                </div>
                 <p class="reviews-item-text">
                   We selected Interno interior because of rigorous design
                   background & education.
@@ -119,13 +134,17 @@
             </li>
             <li class="reviews-item">
               <article class="reviews-item-box">
-                <img
-                  src="./images/david.jpg"
-                  alt="David Knight"
-                  class="reviews-img"
-                />
-                <h3 class="reviews-item-title">David Knight</h3>
-                <p class="reviews-item-info">Sydney, Australia</p>
+                <div class="reviews-position">
+                  <img
+                    src="./images/david.jpg"
+                    alt="David Knight"
+                    class="reviews-img"
+                  />
+                  <div class="reviews-wrapper">
+                    <h3 class="reviews-item-title">David Knight</h3>
+                    <p class="reviews-item-info">Sydney, Australia</p>
+                  </div>
+                </div>
                 <p class="reviews-item-text">
                   The team exceeded our expectations and emerged as leaders of
                   our project’s.
@@ -134,13 +153,17 @@
             </li>
             <li class="reviews-item">
               <article class="reviews-item-box">
-                <img
-                  src="./images/lisa-clairton.jpg"
-                  alt="Lisa Clairton"
-                  class="reviews-img"
-                />
-                <h3 class="reviews-item-title">Lisa Clairton</h3>
-                <p class="reviews-item-info">Paris, France</p>
+                <div class="reviews-position">
+                  <img
+                    src="./images/lisa-clairton.jpg"
+                    alt="Lisa Clairton"
+                    class="reviews-img"
+                  />
+                  <div class="reviews-wrapper">
+                    <h3 class="reviews-item-title">Lisa Clairton</h3>
+                    <p class="reviews-item-info">Paris, France</p>
+                  </div>
+                </div>
                 <p class="reviews-item-text">
                   They balanced the architectural vision and the project
                   realities beautifully.
@@ -166,9 +189,18 @@
                   alt="Building"
                   class="project-img"
                 />
-                <h3 class="project-item-title">Winery Dry Creek Building</h3>
-                <p class="project-item-info">Art Modern</p>
-                <button type="button" class="project-item-btn">></button>
+                <div class="project-position">
+                  <div class="project-wrapper">
+                    <div>
+                      <h3 class="project-item-title">
+                        Winery Dry Creek Building
+                      </h3>
+
+                      <p class="project-item-info">Art Modern</p>
+                    </div>
+                    <button type="button" class="project-item-btn">></button>
+                  </div>
+                </div>
               </article>
             </li>
             <li class="project-item">
@@ -178,17 +210,35 @@
                   alt="Workplace"
                   class="project-img"
                 />
-                <h3 class="project-item-title">Creative Workplace Design</h3>
-                <p class="project-item-info">Minimalist</p>
-                <button type="button" class="project-item-btn">></button>
+                <div class="project-position">
+                  <div class="project-wrapper">
+                    <div>
+                      <h3 class="project-item-title">
+                        Creative Workplace Design
+                      </h3>
+
+                      <p class="project-item-info">Minimalist</p>
+                    </div>
+                    <button type="button" class="project-item-btn">></button>
+                  </div>
+                </div>
               </article>
             </li>
             <li class="project-item">
               <article class="project-item-box">
                 <img src="./images/vase.jpg" alt="Vase" class="project-img" />
-                <h3 class="project-item-title">Bedroom Interior Pot Work</h3>
-                <p class="project-item-info">Modern</p>
-                <button type="button" class="project-item-btn">></button>
+                <div class="project-position">
+                  <div class="project-wrapper">
+                    <div>
+                      <h3 class="project-item-title">
+                        Bedroom Interior Pot Work
+                      </h3>
+
+                      <p class="project-item-info">Modern</p>
+                    </div>
+                    <button type="button" class="project-item-btn">></button>
+                  </div>
+                </div>
               </article>
             </li>
             <li class="project-item">
@@ -198,9 +248,17 @@
                   alt="Bedroom"
                   class="project-img"
                 />
-                <h3 class="project-item-title">Light Ambience Sepia Design</h3>
-                <p class="project-item-info">Scandinavian</p>
-                <button type="button" class="project-item-btn">></button>
+                <div class="project-position">
+                  <div class="project-wrapper">
+                    <div>
+                      <h3 class="project-item-title">
+                        Light Ambience Sepia Design
+                      </h3>
+                      <p class="project-item-info">Scandinavian</p>
+                    </div>
+                    <button type="button" class="project-item-btn">></button>
+                  </div>
+                </div>
               </article>
             </li>
           </ul>
@@ -210,29 +268,20 @@
         <div class="container">
           <ul class="statistics-list list">
             <li class="statistics-item">
-              <!-- Якщо не вийде - то зроблю 2 параграфа(без спану)  -->
-              <p class="statistics-item-text">
-                <span class="statistics-item-amount">12</span> Years Of
-                Experiance
-              </p>
+              <p class="statistics-item-amount">12</p>
+              <p class="statistics-item-text">Years Of Experiance</p>
             </li>
             <li class="statistics-item">
-              <!-- Якщо не вийде - то зроблю 2 параграфа(без спану)  -->
-              <p class="statistics-item-text">
-                <span class="statistics-item-amount">5k</span> Success Project
-              </p>
+              <p class="statistics-item-amount">5k</p>
+              <p class="statistics-item-text">Success Project</p>
             </li>
             <li class="statistics-item">
-              <!-- Якщо не вийде - то зроблю 2 параграфа(без спану)  -->
-              <p class="statistics-item-text">
-                <span class="statistics-item-amount">1k</span> Active Project
-              </p>
+              <p class="statistics-item-amount">1k</p>
+              <p class="statistics-item-text">Active Project</p>
             </li>
             <li class="statistics-item">
-              <!-- Якщо не вийде - то зроблю 2 параграфа(без спану)  -->
-              <p class="statistics-item-text">
-                <span class="statistics-item-amount">4k</span> Happy Customers
-              </p>
+              <p class="statistics-item-amount">4k</p>
+              <p class="statistics-item-text">Happy Customers</p>
             </li>
           </ul>
         </div>
@@ -256,8 +305,10 @@
                 <h3 class="blogs-item-title">
                   Residential Interior Designer In New York, USA
                 </h3>
-                <p class="blogs-item-date">November 23, 2021</p>
-                <button type="button" class="blogs-item-btn">></button>
+                <div class="blogs-wrapper">
+                  <p class="blogs-item-date">November 23, 2021</p>
+                  <button type="button" class="blogs-item-btn">></button>
+                </div>
               </article>
             </li>
             <li class="blogs-item">
@@ -271,8 +322,10 @@
                 <h3 class="blogs-item-title">
                   How To Choose The Best Wall Art & Decor House?
                 </h3>
-                <p class="blogs-item-date">November 23, 2021</p>
-                <button type="button" class="blogs-item-btn">></button>
+                <div class="blogs-wrapper">
+                  <p class="blogs-item-date">November 23, 2021</p>
+                  <button type="button" class="blogs-item-btn">></button>
+                </div>
               </article>
             </li>
             <li class="blogs-item">
@@ -286,8 +339,10 @@
                 <h3 class="blogs-item-title">
                   Tips To Increase The Interior Value Of Your House
                 </h3>
-                <p class="blogs-item-date">November 23, 2021</p>
-                <button type="button" class="blogs-item-btn">></button>
+                <div class="blogs-wrapper">
+                  <p class="blogs-item-date">November 23, 2021</p>
+                  <button type="button" class="blogs-item-btn">></button>
+                </div>
               </article>
             </li>
             <li class="blogs-item">
@@ -301,8 +356,10 @@
                 <h3 class="blogs-item-title">
                   Best Solution For Any Office & Business Interior
                 </h3>
-                <p class="blogs-item-date">November 23, 2021</p>
-                <button type="button" class="blogs-item-btn">></button>
+                <div class="blogs-wrapper">
+                  <p class="blogs-item-date">November 23, 2021</p>
+                  <button type="button" class="blogs-item-btn">></button>
+                </div>
               </article>
             </li>
             <li class="blogs-item">
@@ -316,8 +373,10 @@
                 <h3 class="blogs-item-title">
                   Get Solution For Building Construction Work
                 </h3>
-                <p class="blogs-item-date">November 23, 2021</p>
-                <button type="button" class="blogs-item-btn">></button>
+                <div class="blogs-wrapper">
+                  <p class="blogs-item-date">November 23, 2021</p>
+                  <button type="button" class="blogs-item-btn">></button>
+                </div>
               </article>
             </li>
             <li class="blogs-item">
@@ -331,8 +390,10 @@
                 <h3 class="blogs-item-title">
                   Attain The Best Finish For The Kitchen Cabinets
                 </h3>
-                <p class="blogs-item-date">November 23, 2021</p>
-                <button type="button" class="blogs-item-btn">></button>
+                <div class="blogs-wrapper">
+                  <p class="blogs-item-date">November 23, 2021</p>
+                  <button type="button" class="blogs-item-btn">></button>
+                </div>
               </article>
             </li>
           </ul>
