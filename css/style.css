@@ -111,6 +111,7 @@ header {
   line-height: 1.2;
   letter-spacing: 0.22px;
   margin-bottom: 19px;
+    width: 595px;
 }
 
 .hero-text {
@@ -119,6 +120,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.22px;
   margin-bottom: 35px;
+  width: 557px;
 }
 
 .hero-btn {
@@ -138,8 +140,17 @@ header {
 .advantage-list {
   display: flex;
   justify-content: center;
-  align-items: center;
+  column-gap: 52px;
 }
+
+.advantage-item:nth-child(1) {
+  flex-basis: 317px;
+}
+
+.advantage-item:nth-child(2),
+.advantage-item:nth-child(3) {
+  flex-basis: 296px;
+} 
 
 .advantage-item-title {
   color: var(--main-color);
@@ -200,6 +211,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.22px;
   margin-bottom: 46px;
+  width: 531px;
 }
 
 .design-link-item {
@@ -330,12 +342,17 @@ header {
 }
 
 .project-text {
+    margin: 0 auto;
+}
+
+.project-text {
   color: var(--text-color);
   text-align: center;
   font-size: 22px;
   line-height: 1.5;
   letter-spacing: 0.22px;
   margin-bottom: 70px;
+  width: 786px;
 }
 
 .project-list {
@@ -437,12 +454,17 @@ header {
 }
 
 .blogs-text {
+  margin: 0 auto;
+}
+
+.blogs-text {
   color: var(--text-color);
   text-align: center;
   font-size: 22px;
   line-height: 1.5;
   letter-spacing: 0.22px;
   margin-bottom: 70px;
+  width: 589px;
 }
 
 .blogs-list {
@@ -555,6 +577,7 @@ header {
 
 .footer-position {
   display: flex;
+  justify-content: space-between;
 }
 
 .footer-wrapper {
@@ -574,6 +597,7 @@ header {
   display: flex;
   justify-content: center;
   column-gap: 60px;
+  padding-bottom: 110px;
 }
 
 .footer-item {
